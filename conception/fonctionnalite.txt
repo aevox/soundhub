@@ -1,0 +1,69 @@
+Fonctions utilisateur
+Accéder a une playlist :
+* A partir d'une URL, arriver sur une playlist créée par un utilisateur.
+Écouter des playlists :
+* Fonction d'écoute classique « play | stop | next | prev | pause etc ».
+Faire des playlists :
+* Créer une nouvelle playlist avec son nom.
+* Toutes les fonctions d'édition sont accessibles une fois que la playlist est créée.
+Éditer des playlists :
+* Ajouter une entrée (plusieurs détails pour la recherche : titre, artiste, album etc), spécifier le site de départ (youtube etc..) et le lien d'accès.
+* Modifier une entrée en modifiant les champs.
+* Supprimer une entrée pour qu'elle n’apparaisse plus sur la playlist éditée.
+Supprimer une playlist :
+* Supprimer la playlist du tableau des playlists de l'utilisateur, elle n'est plus accessible par tous les utilisateurs et toutes les musiques associées à la playlist sont dissociées de la playlist et non récupérables.
+Partager les playlists :
+* En appuyant sur un bouton sur le tableau des playlist, on choisit les connaissances à qui on veut faire partager la playlist et ca leur envoie un message (A voir email ou pop-up a la prochaine connexion).
+Rendre priver une playlist : 
+* Rendre la playlist inaccessible par l’utilisateur non connecté et non dans la liste de connaissances (voir si plus de restriction).
+Rendre public une playlist :
+* Modifier le statut d'une playlist de privé en public.
+Autoriser ses connaissances à modifier la playlist : 
+* Donner le droit d'écriture a une connaissance sur une playlist que l'on possède pour que la connaissance fasse des propositions de modifications.
+Valider les modifications faites par les connaissances :
+* Après une alerte qui annonce qu'une connaissance propose une modification sur une de nos playlists, on peut valider la modification ou la refuser :
+-  valider => la playlist est remplacée par la nouvelle.
+-  refuser => Aucun changement n’est validé.
+Créer un compte utilisateur :
+* L'utilisateur doit entrer son login (email/nickname) et un password, une vérification des emails est effectuée.
+Gérer son compte utilisateur : 
+* L'utilisateur peut ajouter des données supplémentaires à son compte, changer de password, changer d'email.
+Demande de suppression de son compte utilisateur :
+* Si l'utilisateur ne veut plus utiliser le service il peut demander à ce qu’un admin supprime son compte.
+Se connecter a son compte utilisateur : 
+* L'utilisateur entre son login et password pour avoir accès à son contenu enregistré et ses infos personnelles.
+Se déconnecter de son compte utilisateur : 
+* L'utilisateur se déconnecte et redevient un utilisateur anonyme.
+Lier d'autres utilisateurs enregistrés à son compte « connaissances » :
+* Système pour gérer les communautaires et le partage, l'utilisateur peut ajouter dans sont groupe de connaissance un utilisateur en  entrant son nom d’utilisateur.
+Accepter la connaissance de quelqu’un :
+* Après une alerte (email/popup) qui indique qu'un utilisateur veut faire parti du groupe de connaissances de l'utilisateur actif, il valide.
+Supprimer une connaissance
+* Retire de la liste de connaissance (des deux côtés) une connaissance pour qu'il n'ai plus accès au privilège de connaissance.
+Commenter les playlists de ses connaissances :
+* Uniquement si le propriétaire de la playlist fait parti du groupe de connaissances, l'utilisateur peut laisser un commentaire sur la playlist, écrire un texte et l'envoyer pour que le créateur et 	toutes ses connaissances puissent voir le commentaire.
+Éditer un commentaire :
+* Si aucun commentaire est passé par dessus on peut modifier le texte ajouter en commentaire.
+Consulter les playlists de ses connaissances :
+* En naviguant dans ses connaissances, on peut aller sur la 'page' voir certaines informations personnelles et surtout la liste de leur playlists.
+Fonctions admin
+Supprimer un compte utilisateur :
+* Après une demande d'un utilisateur, l'admin lance la fonction de suppression de compte, qui efface les commentaires playlist et infos personnel sur l'utilisateur.
+Supprimer un commentaire :
+* L'admin fait la 'police' il a le droit de supprimer tout commentaire qui n'entre pas dans les conditions d'utilisation du site.
+Editer un commentaire :
+* Il peut également éditer le commentaire pour que l'utilisateur en question soit averti et pour que le commentaire ne soit pas entièrement supprimé.
+Supprimer une playlist :
+* L'admin peut éditer ou supprimer une playlist sur des critères d'utilisation frauduleuse du site.
+
+Fonction background 
+Sauvegarder les playlists :
+* Les playlist sont sauvegardées en base de données.
+Update les playlists
+Remove les playlists
+Faire le pont des flux de musique depuis (youtube, daylimotion, sound cloud)
+
+Fonction supplémentaires
+* Messages privés entre les membres (connaissances, non connaissances ?).
+* Ajouter d'autres sites de partage (deezer etc).
+
